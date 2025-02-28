@@ -6,6 +6,9 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#include "zmk-helpers/helper.h"
+#include "zmk-helpers/unicode-chars/german.dtsi"
+
 / {
     behaviors {
       #include "macros.dtsi"
@@ -132,7 +135,7 @@
             bindings = <
               &kp F1  &kp F2     &kp F3     &kp F4  &kp F5     &kp F6  &tog 1                                      &mo 3            &kp F7           &kp F8           &kp F9           &kp F10          &kp F11    &kp F12
               &trans  &trans     &trans     &trans  &trans     &trans  &none                                       &none            &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans     &trans
-              &trans  &kp RA(Q)  &kp RA(P)  &trans  &kp RA(U)  &trans  &none   &trans  &trans      &trans  &trans  &none            &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RA(S)  &trans
+              &trans  &kp RA(Q)  &kp RA(P)  &trans  &de_ue     &trans  &none   &trans  &trans      &trans  &trans  &none            &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RA(S)  &trans
               &trans  &trans     &trans     &trans  &trans     &trans                  &trans      &trans                           &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans
               &trans  &trans     &trans     &trans  &trans             &trans  &trans  &trans      &trans  &trans  &kp KP_NUMBER_0                   &trans           &trans           &trans           &trans     &trans
             >;
