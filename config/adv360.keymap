@@ -25,7 +25,7 @@
             bindings = <&kp EXCLAMATION>, <&kp NUMBER_1>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -35,7 +35,7 @@
             bindings = <&kp AT_SIGN>, <&kp NUMBER_2>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -45,7 +45,7 @@
             bindings = <&kp HASH>, <&kp NUMBER_3>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -55,7 +55,7 @@
             bindings = <&kp DOLLAR>, <&kp NUMBER_4>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -65,7 +65,7 @@
             bindings = <&kp PERCENT>, <&kp NUMBER_5>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -75,7 +75,7 @@
             bindings = <&kp CARET>, <&kp NUMBER_6>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_RSFT|MOD_LSFT)>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -85,7 +85,7 @@
             bindings = <&kp AMPERSAND>, <&kp NUMBER_7>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_RSFT|MOD_LSFT)>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -95,7 +95,7 @@
             bindings = <&kp ASTERISK>, <&kp NUMBER_8>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_RSFT|MOD_LSFT)>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -105,7 +105,7 @@
             bindings = <&kp LEFT_PARENTHESIS>, <&kp NUMBER_9>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_RSFT|MOD_LSFT)>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
@@ -115,7 +115,7 @@
             bindings = <&kp RIGHT_PARENTHESIS>, <&kp NUMBER_0>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT|MOD_RSFT|MOD_LSFT)>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
     };
