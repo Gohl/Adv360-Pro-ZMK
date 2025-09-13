@@ -25,8 +25,8 @@
             bindings = <&kp EXCLAMATION>, <&kp NUMBER_1>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n2: dvkkp_n2 {
@@ -35,8 +35,8 @@
             bindings = <&kp AT_SIGN>, <&kp NUMBER_2>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n3: dvkkp_n3 {
@@ -45,8 +45,8 @@
             bindings = <&kp HASH>, <&kp NUMBER_3>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n4: dvkkp_n4 {
@@ -55,8 +55,8 @@
             bindings = <&kp DOLLAR>, <&kp NUMBER_4>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n5: dvkkp_n5 {
@@ -65,8 +65,8 @@
             bindings = <&kp PERCENT>, <&kp NUMBER_5>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n6: dvkkp_n6 {
@@ -75,8 +75,8 @@
             bindings = <&kp CARET>, <&kp NUMBER_6>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n7: dvkkp_n7 {
@@ -85,8 +85,8 @@
             bindings = <&kp AMPERSAND>, <&kp NUMBER_7>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n8: dvkkp_n8 {
@@ -95,8 +95,8 @@
             bindings = <&kp ASTERISK>, <&kp NUMBER_8>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n9: dvkkp_n9 {
@@ -105,8 +105,8 @@
             bindings = <&kp LEFT_PARENTHESIS>, <&kp NUMBER_9>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
 
         dvkkp_n0: dvkkp_n0 {
@@ -115,8 +115,8 @@
             bindings = <&kp RIGHT_PARENTHESIS>, <&kp NUMBER_0>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI|MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
         };
     };
 
