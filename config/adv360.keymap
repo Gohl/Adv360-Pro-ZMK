@@ -5,6 +5,17 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&caps_word {
+    continue-list = <
+        UNDERSCORE
+        MINUS
+        BACKSPACE
+        DELETE
+        N1 N2 N3 N4 N5
+        N6 N7 N8 N9 N0
+    >;
+};
+
 / {
     behaviors {
         #include "macros.dtsi"
@@ -117,6 +128,15 @@
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
             keep-mods = <(MOD_RCTL|MOD_LCTL|MOD_LGUI|MOD_RGUI|MOD_RALT|MOD_LALT)>;
+        };
+        ht_CapsWord: ht_CapsWord {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CAPS_WORD_HOLD_TAP";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+            bindings = <&kp>, <&caps_word>;
+            require-prior-idle-ms = <100>;
         };
     };
 
